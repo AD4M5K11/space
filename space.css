@@ -1,0 +1,22 @@
+* {
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background-color: black;
+    background-size: 100% 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap; 
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    max-width: 200%;
+    max-width: 200%;
+    min-width: 1%;
+    min-height: 1%;
+    
+
+}
