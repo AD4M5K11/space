@@ -1,0 +1,1149 @@
+* {
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background-color: black;
+    background-size: 100% 100%;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    max-width: 200%;
+    max-width: 200%;
+    min-width: 1%;
+    min-height: 1%;
+    z-index: 1;
+    overflow: hidden;
+
+}
+
+.border {
+
+    right: 8%;
+    border: 10px solid red;
+    height: 100%;
+    width: 80%;
+    z-index: 4;
+    bottom: 0%;
+    position: absolute;
+    display: flex;
+
+}
+
+.s {
+
+    font-size: 5rem;
+    color: white;
+    left: 3%;
+    top: 10%;
+    position: absolute;
+
+
+}
+
+.p {
+
+    font-size: 5rem;
+    color: white;
+    left: 3%;
+    top: 25%;
+    position: absolute;
+
+}
+
+.a {
+
+    font-size: 5rem;
+    color: white;
+    left: 2%;
+    top: 40%;
+    position: absolute;
+
+}
+
+.c {
+
+    font-size: 5rem;
+    color: white;
+    left: 2%;
+    top: 55%;
+    position: absolute;
+
+}
+
+.e {
+
+    font-size: 5rem;
+    color: white;
+    left: 2%;
+    top: 70%;
+    position: absolute;
+
+}
+
+.i {
+
+    font-size: 5rem;
+    color: white;
+    right: 3%;
+    top: 5%;
+    position: absolute;
+
+}
+
+.n {
+
+    font-size: 5rem;
+    color: white;
+    right: 2%;
+    top: 15%;
+    position: absolute;
+
+}
+
+.v {
+
+    font-size: 5rem;
+    color: white;
+    right: 2%;
+    top: 25%;
+    position: absolute;
+
+}
+
+.aa {
+
+    font-size: 5rem;
+    color: white;
+    right: 2%;
+    top: 35%;
+    position: absolute;
+
+}
+
+.d {
+
+    font-size: 5rem;
+    color: white;
+    right: 2%;
+    top: 45%;
+    position: absolute;
+
+}
+
+.ee {
+
+    font-size: 5rem;
+    color: white;
+    right: 2.5%;
+    top: 55%;
+    position: absolute;
+
+}
+
+.r {
+
+    font-size: 5rem;
+    color: white;
+    right: 2%;
+    top: 65%;
+    position: absolute;
+
+}
+
+.ss {
+
+    font-size: 5rem;
+    color: white;
+    right: 2.5%;
+    top: 75%;
+    position: absolute;
+
+}
+
+
+.img1 {
+
+    position: absolute;
+    top: 20%;
+    left: 84%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+
+}
+
+.img2 {
+
+    position: absolute;
+    top: 20%;
+    left: 76%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+
+}
+
+.img3 {
+
+    position: absolute;
+    top: 20%;
+    left: 68%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+
+.img4 {
+position: absolute;
+    top: 20%;
+    left: 60%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+
+.img5 {
+position: absolute;
+    top: 20%;
+    left: 52%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+
+.img6 {
+position: absolute;
+    top: 20%;
+    left: 44%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+
+.img7 {
+position: absolute;
+    top: 20%;
+    left: 36%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+
+.img8 {
+position: absolute;
+    top: 20%;
+    left: 28%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+
+.img9 {
+position: absolute;
+    top: 20%;
+    left: 20%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+
+.img10 {
+position: absolute;
+    top: 20%;
+    left: 12%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+
+.img11 {
+position: absolute;
+    top: 0%;
+    left: 30%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+
+.img111 {
+
+    position: absolute;
+    top: 0%;
+    left: 60%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+
+}
+
+.ship {
+position: absolute;
+    bottom: 5%;
+    left: 46.5%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.7);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+
+.img13 {
+position: absolute;
+    top: 13%;
+    left: 36%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+
+.img14 {
+position: absolute;
+    top: 13%;
+    left: 52%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img15 {
+position: absolute;
+    top: 13%;
+    left: 44%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img16 {
+position: absolute;
+    top: 13%;
+    left: 60%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img17 {
+position: absolute;
+    top: 13%;
+    left: 68%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img18 {
+position: absolute;
+    top: 13%;
+    left: 28%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img19 {
+position: absolute;
+    top: 13%;
+    left: 20%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img20 {
+position: absolute;
+    top: 13%;
+    left: 76%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img21 {
+position: absolute;
+    top: 13%;
+    left: 12%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img22 {
+position: absolute;
+    top: 13%;
+    left: 84%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img23 {
+    position: absolute;
+    top: 26%;
+    left: 12%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img24 {
+position: absolute;
+    top: 26%;
+    left: 20%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img25 {
+position: absolute;
+    top: 26%;
+    left: 36%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img26 {
+position: absolute;
+    top: 26%;
+    left: 44%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img27 {
+position: absolute;
+    top: 26%;
+    left: 52%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img28 {
+position: absolute;
+    top: 26%;
+    left: 60%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img29 {
+position: absolute;
+    top: 26%;
+    left: 68%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img30 {
+position: absolute;
+    top: 26%;
+    left: 76%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img31 {
+position: absolute;
+    top: 26%;
+    left: 28%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img32 {
+position: absolute;
+    top: 26%;
+    left: 84%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img33 {
+position: absolute;
+    top: 7%;
+    left: 12%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img34 {
+position: absolute;
+    top: 7%;
+    left: 20%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img35 {
+position: absolute;
+    top: 7%;
+    left: 28%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img36 {
+position: absolute;
+    top: 7%;
+    left: 36%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img37 {
+position: absolute;
+    top: 7%;
+    left: 44%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img38 {
+position: absolute;
+    top: 7%;
+    left: 52%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img39 {
+position: absolute;
+    top: 7%;
+    left: 60%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img40 {
+position: absolute;
+    top: 7%;
+    left: 68%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img41 {
+position: absolute;
+    top: 7%;
+    left: 76%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img42 {
+position: absolute;
+    top: 7%;
+    left: 84%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img43 {
+position: absolute;
+    top: 33%;
+    left: 11%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img44 {
+position: absolute;
+    top: 33%;
+    left: 19%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img45 {
+position: absolute;
+    top: 33%;
+    left: 27%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img46 {
+position: absolute;
+    top: 33%;
+    left: 35%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img47 {
+position: absolute;
+    top: 33%;
+    left: 43%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img48 {
+position: absolute;
+    top: 33%;
+    left: 51%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img49 {
+position: absolute;
+    top: 33%;
+    left: 59%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img50 {
+position: absolute;
+    top: 33%;
+    left: 67%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img51 {
+position: absolute;
+    top: 33%;
+    left: 75%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img52 {
+position: absolute;
+    top: 33%;
+    left: 83%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.5);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img53 {
+position: absolute;
+    top: 42%;
+    left: 12%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.6);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img54 {
+position: absolute;
+    top: 42%;
+    left: 20%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.6);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img55 {
+position: absolute;
+    top: 42%;
+    left: 28%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.6);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img56 {
+position: absolute;
+    top: 42%;
+    left: 36%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.6);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img57 {
+position: absolute;
+    top: 42%;
+    left: 44%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.6);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img58 {
+position: absolute;
+    top: 42%;
+    left: 52%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.6);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img59 {
+position: absolute;
+    top: 42%;
+    left: 60%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.6);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img60 {
+position: absolute;
+    top: 42%;
+    left: 68%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.6);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img61 {
+position: absolute;
+    top: 42%;
+    left: 76%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.6);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.img62 {
+position: absolute;
+    top: 42%;
+    left: 84%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.6);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+.explode {
+
+    display: none;
+
+    
+}
+.start {
+
+    display: none;
+    
+}
+.bullet {
+
+    display: none;
+}
