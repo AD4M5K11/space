@@ -26,7 +26,7 @@ body {
 
 .border {
 
-    right: 10%;
+    right: 8%;
     border: 10px solid red;
     height: 100%;
     width: 80%;
@@ -173,16 +173,39 @@ body {
 
     position: absolute;
     top: 20%;
-    left: 24%;
+    left: 84%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
     background-size: 100% 100%;
+    animation-name: move1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes move1 {
+
+    0% {
+
+        top: 20%;
+        left: 84%;
+
+    }
+
+    50% {
+
+        background-image: url(../invaders\ 2.jpg);
+        z-index: 5;
+        top: 20%; 
+        left: 80%;
+
+    }
 
 }
 
@@ -190,12 +213,12 @@ body {
 
     position: absolute;
     top: 20%;
-    left: 30%;
+    left: 76%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -207,12 +230,12 @@ body {
 
     position: absolute;
     top: 20%;
-    left: 36%;
+    left: 68%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -223,12 +246,12 @@ body {
 .img4 {
 position: absolute;
     top: 20%;
-    left: 42%;
+    left: 60%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -239,12 +262,12 @@ position: absolute;
 .img5 {
 position: absolute;
     top: 20%;
-    left: 48%;
+    left: 52%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -255,12 +278,12 @@ position: absolute;
 .img6 {
 position: absolute;
     top: 20%;
-    left: 54%;
+    left: 44%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -271,12 +294,12 @@ position: absolute;
 .img7 {
 position: absolute;
     top: 20%;
-    left: 60%;
+    left: 36%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -287,12 +310,12 @@ position: absolute;
 .img8 {
 position: absolute;
     top: 20%;
-    left: 66%;
+    left: 28%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -303,12 +326,12 @@ position: absolute;
 .img9 {
 position: absolute;
     top: 20%;
-    left: 72%;
+    left: 20%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -319,12 +342,12 @@ position: absolute;
 .img10 {
 position: absolute;
     top: 20%;
-    left: 18%;
+    left: 12%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -334,13 +357,13 @@ position: absolute;
 
 .img11 {
 position: absolute;
-    top: 1%;
-    left: 42%;
+    top: 0%;
+    left: 30%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -348,15 +371,32 @@ position: absolute;
     
 }
 
-.img12 {
-position: absolute;
-    top: 7%;
-    left: 50%;
+.img111 {
+
+    position: absolute;
+    top: 0%;
+    left: 60%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+
+}
+
+.ship {
+position: absolute;
+    bottom: 5%;
+    left: 46.5%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.7);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -366,13 +406,13 @@ position: absolute;
 
 .img13 {
 position: absolute;
-    top: 7%;
-    left: 30%;
+    top: 13%;
+    left: 36%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -382,13 +422,13 @@ position: absolute;
 
 .img14 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 13%;
+    left: 52%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -397,13 +437,13 @@ position: absolute;
 }
 .img15 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 13%;
+    left: 44%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -412,13 +452,13 @@ position: absolute;
 }
 .img16 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 13%;
+    left: 60%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -427,13 +467,13 @@ position: absolute;
 }
 .img17 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 13%;
+    left: 68%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -442,13 +482,13 @@ position: absolute;
 }
 .img18 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 13%;
+    left: 28%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -457,13 +497,13 @@ position: absolute;
 }
 .img19 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 13%;
+    left: 20%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -472,13 +512,13 @@ position: absolute;
 }
 .img20 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 13%;
+    left: 76%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -487,13 +527,13 @@ position: absolute;
 }
 .img21 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 13%;
+    left: 12%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -502,13 +542,13 @@ position: absolute;
 }
 .img22 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 13%;
+    left: 84%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -516,14 +556,14 @@ position: absolute;
     
 }
 .img23 {
-position: absolute;
-    top: 5%;
-    left: 5%;
+    position: absolute;
+    top: 26%;
+    left: 12%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -532,13 +572,13 @@ position: absolute;
 }
 .img24 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 26%;
+    left: 20%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -547,13 +587,13 @@ position: absolute;
 }
 .img25 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 26%;
+    left: 36%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -562,13 +602,13 @@ position: absolute;
 }
 .img26 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 26%;
+    left: 44%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -577,13 +617,13 @@ position: absolute;
 }
 .img27 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 26%;
+    left: 52%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -592,13 +632,13 @@ position: absolute;
 }
 .img28 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 26%;
+    left: 60%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -607,13 +647,13 @@ position: absolute;
 }
 .img29 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 26%;
+    left: 68%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -622,13 +662,13 @@ position: absolute;
 }
 .img30 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 26%;
+    left: 76%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -637,13 +677,13 @@ position: absolute;
 }
 .img31 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 26%;
+    left: 28%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -652,13 +692,13 @@ position: absolute;
 }
 .img32 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 26%;
+    left: 84%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -667,13 +707,13 @@ position: absolute;
 }
 .img33 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 7%;
+    left: 12%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -682,13 +722,13 @@ position: absolute;
 }
 .img34 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 7%;
+    left: 20%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -697,13 +737,13 @@ position: absolute;
 }
 .img35 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 7%;
+    left: 28%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -712,13 +752,13 @@ position: absolute;
 }
 .img36 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 7%;
+    left: 36%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -727,13 +767,13 @@ position: absolute;
 }
 .img37 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 7%;
+    left: 44%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -742,13 +782,13 @@ position: absolute;
 }
 .img38 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 7%;
+    left: 52%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -757,13 +797,13 @@ position: absolute;
 }
 .img39 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 7%;
+    left: 60%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -772,8 +812,8 @@ position: absolute;
 }
 .img40 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 7%;
+    left: 68%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
@@ -787,13 +827,13 @@ position: absolute;
 }
 .img41 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 7%;
+    left: 76%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -802,13 +842,13 @@ position: absolute;
 }
 .img42 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 7%;
+    left: 84%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -817,13 +857,13 @@ position: absolute;
 }
 .img43 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 33%;
+    left: 11%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -832,13 +872,13 @@ position: absolute;
 }
 .img44 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 33%;
+    left: 19%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -847,13 +887,13 @@ position: absolute;
 }
 .img45 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 33%;
+    left: 27%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -862,13 +902,13 @@ position: absolute;
 }
 .img46 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 33%;
+    left: 35%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -877,13 +917,13 @@ position: absolute;
 }
 .img47 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 33%;
+    left: 43%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -892,13 +932,13 @@ position: absolute;
 }
 .img48 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 33%;
+    left: 51%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -907,13 +947,13 @@ position: absolute;
 }
 .img49 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 33%;
+    left: 59%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -922,13 +962,13 @@ position: absolute;
 }
 .img50 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 33%;
+    left: 67%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -937,13 +977,13 @@ position: absolute;
 }
 .img51 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 33%;
+    left: 75%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -952,13 +992,13 @@ position: absolute;
 }
 .img52 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 33%;
+    left: 83%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -967,13 +1007,13 @@ position: absolute;
 }
 .img53 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 42%;
+    left: 12%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -982,13 +1022,13 @@ position: absolute;
 }
 .img54 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 42%;
+    left: 20%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -997,13 +1037,13 @@ position: absolute;
 }
 .img55 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 42%;
+    left: 28%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -1012,13 +1052,13 @@ position: absolute;
 }
 .img56 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 42%;
+    left: 36%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -1027,13 +1067,13 @@ position: absolute;
 }
 .img57 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 42%;
+    left: 44%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -1042,13 +1082,13 @@ position: absolute;
 }
 .img58 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 42%;
+    left: 52%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -1057,13 +1097,13 @@ position: absolute;
 }
 .img59 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 42%;
+    left: 60%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -1072,13 +1112,13 @@ position: absolute;
 }
 .img60 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 42%;
+    left: 68%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -1087,13 +1127,13 @@ position: absolute;
 }
 .img61 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 42%;
+    left: 76%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
@@ -1102,13 +1142,13 @@ position: absolute;
 }
 .img62 {
 position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 42%;
+    left: 84%;
     flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.4);
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 0;
