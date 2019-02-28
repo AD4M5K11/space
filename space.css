@@ -1,0 +1,2488 @@
+* {
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background-color: black;
+    background-size: 100% 100%;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    max-width: 200%;
+    max-width: 200%;
+    min-width: 1%;
+    min-height: 1%;
+    z-index: 1;
+    overflow: hidden;
+
+}
+
+.border {
+
+    right: 5.25%;
+    border: 10px solid red;
+    height: 100%;
+    width: 85.8%;
+    z-index: 4;
+    bottom: 0%;
+    position: absolute;
+    display: flex;
+
+}
+
+.s {
+
+    font-size: 5rem;
+    color: white;
+    left: 3%;
+    top: 10%;
+    position: absolute;
+
+
+}
+
+.p {
+
+    font-size: 5rem;
+    color: white;
+    left: 3%;
+    top: 25%;
+    position: absolute;
+
+}
+
+.a {
+
+    font-size: 5rem;
+    color: white;
+    left: 2%;
+    top: 40%;
+    position: absolute;
+
+}
+
+.c {
+
+    font-size: 5rem;
+    color: white;
+    left: 2%;
+    top: 55%;
+    position: absolute;
+
+}
+
+.e {
+
+    font-size: 5rem;
+    color: white;
+    left: 2%;
+    top: 70%;
+    position: absolute;
+
+}
+
+.i {
+
+    font-size: 5rem;
+    color: white;
+    right: 2%;
+    top: 5%;
+    position: absolute;
+
+}
+
+.n {
+
+    font-size: 5rem;
+    color: white;
+    right: 1%;
+    top: 15%;
+    position: absolute;
+
+}
+
+.v {
+
+    font-size: 5rem;
+    color: white;
+    right: 1%;
+    top: 25%;
+    position: absolute;
+
+}
+
+.aa {
+
+    font-size: 5rem;
+    color: white;
+    right: 1%;
+    top: 35%;
+    position: absolute;
+
+}
+
+.d {
+
+    font-size: 5rem;
+    color: white;
+    right: 1%;
+    top: 45%;
+    position: absolute;
+
+}
+
+.ee {
+
+    font-size: 5rem;
+    color: white;
+    right: 1.5%;
+    top: 55%;
+    position: absolute;
+
+}
+
+.r {
+
+    font-size: 5rem;
+    color: white;
+    right: 1%;
+    top: 65%;
+    position: absolute;
+
+}
+
+.ss {
+
+    font-size: 5rem;
+    color: white;
+    right: 1.5%;
+    top: 75%;
+    position: absolute;
+
+}
+
+
+.img1 {
+
+    position: absolute;
+    top: 20%;
+    left: 84%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite; 
+
+}
+
+@keyframes move1 {
+
+    0% {
+
+        top: 20%;
+        left: 84%; 
+
+    }
+
+    50% {
+
+        background-image: url(/invaders\ 2.png);
+        z-index: 5;
+        top: 20%; 
+        left: 80%;
+
+    }
+
+}
+
+.img2 {
+
+    position: absolute;
+    top: 20%;
+    left: 76%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes move2 {
+
+    0% {
+
+        top: 20%;
+        left: 76%; 
+
+    }
+
+    50% {
+
+        background-image: url(/invaders\ 2.png);
+        z-index: 5;
+        top: 20%; 
+        left: 72%;
+
+    }
+
+}
+
+.img3 {
+
+    position: absolute;
+    top: 20%;
+    left: 68%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move3;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes move3 {
+
+    0% {
+
+        top: 20%;
+        left: 68%; 
+
+    }
+
+    50% {
+
+        background-image: url(/invaders\ 2.png);
+        z-index: 5;
+        top: 20%; 
+        left: 64%;
+
+    }
+
+}
+
+.img4 {
+position: absolute;
+    top: 20%;
+    left: 60%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move4;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes move4 {
+
+    0% {
+
+        top: 20%;
+        left: 60%; 
+
+    }
+
+    50% {
+
+        background-image: url(/invaders\ 2.png);
+        z-index: 5;
+        top: 20%; 
+        left: 56%;
+
+    }
+
+}
+
+.img5 {
+position: absolute;
+    top: 20%;
+    left: 52%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move5;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes move5 {
+
+    0% {
+
+        top: 20%;
+        left: 52%; 
+
+    }
+
+    50% {
+
+        background-image: url(/invaders\ 2.png);
+        z-index: 5;
+        top: 20%; 
+        left: 48%;
+
+    }
+
+}
+
+.img6 {
+position: absolute;
+    top: 20%;
+    left: 44%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move6;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes move6 {
+
+    0% {
+
+        top: 20%;
+        left: 44%; 
+
+    }
+
+    50% {
+
+        background-image: url(/invaders\ 2.png);
+        z-index: 5;
+        top: 20%; 
+        left: 40%;
+
+    }
+
+}
+
+.img7 {
+position: absolute;
+    top: 20%;
+    left: 36%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move7;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes move7 {
+
+    0% {
+
+        top: 20%;
+        left: 36%; 
+
+    }
+
+    50% {
+
+        background-image: url(/invaders\ 2.png);
+        z-index: 5;
+        top: 20%; 
+        left: 32%;
+
+    }
+
+}
+
+.img8 {
+position: absolute;
+    top: 20%;
+    left: 28%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move8;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes move8 {
+
+    0% {
+
+        top: 20%;
+        left: 28%; 
+
+    }
+
+    50% {
+
+        background-image: url(/invaders\ 2.png);
+        z-index: 5;
+        top: 20%; 
+        left: 24%;
+
+    }
+
+}
+
+.img9 {
+position: absolute;
+    top: 20%;
+    left: 20%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move9;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes move9 {
+
+    0% {
+
+        top: 20%;
+        left: 20%; 
+
+    }
+
+    50% {
+
+        background-image: url(/invaders\ 2.png);
+        z-index: 5;
+        top: 20%; 
+        left: 16%;
+
+    }
+
+}
+
+.img10 {
+position: absolute;
+    top: 20%;
+    left: 12%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move10;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes move10 {
+
+    0% {
+
+        top: 20%;
+        left: 12%; 
+
+    }
+
+    50% {
+
+        background-image: url(/invaders\ 2.png);
+        z-index: 5;
+        top: 20%; 
+        left: 8%;
+
+    }
+
+}
+
+.img11 {
+position: absolute;
+    top: 0%;
+    left: 30%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move11;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move11 {
+
+    0% {
+
+        top: 0%;
+        left: 30%; 
+
+    }
+
+    33% {
+
+        z-index: 5;
+        top: 0%; 
+        left: 33%;
+
+    }
+
+    67% {
+
+        top: 0%;
+        left: 27%;
+
+    }
+
+}
+
+.img111 {
+
+    position: absolute;
+    top: 0%;
+    left: 60%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move111;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move111 {
+
+    0% {
+
+        top: 0%;
+        left: 60%; 
+
+    }
+
+    33% {
+
+        z-index: 5;
+        top: 0%; 
+        left: 63%;
+
+    }
+
+    67% {
+
+        top: 0%;
+        left: 57%;
+
+    }
+
+}
+
+#ship {
+position: absolute;
+    bottom: 5%;
+    left: 46.5%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.7);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    
+}
+
+.img13 {
+position: absolute;
+    top: 13%;
+    left: 36%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move13;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.25s
+}
+
+@keyframes move13 {
+
+    0% {
+
+        top: 13%;
+        left: 36%
+
+    }
+
+    50% {
+
+        top: 13%;
+        left: 40%;
+
+    }
+
+}
+
+.img14 {
+position: absolute;
+    top: 13%;
+    left: 52%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move14;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.25s
+}
+
+@keyframes move14 {
+
+    0% {
+
+        top: 13%;
+        left: 52%
+
+    }
+
+    50% {
+
+        top: 13%;
+        left: 56%;
+
+    }
+
+}
+
+
+.img15 {
+position: absolute;
+    top: 13%;
+    left: 44%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move15;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.25s
+}
+
+@keyframes move15 {
+
+    0% {
+
+        top: 13%;
+        left: 44%
+
+    }
+
+    50% {
+
+        top: 13%;
+        left: 48%;
+
+    }
+
+}
+
+.img16 {
+position: absolute;
+    top: 13%;
+    left: 60%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move16;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.25s
+}
+
+@keyframes move16 {
+
+    0% {
+
+        top: 13%;
+        left: 60%
+
+    }
+
+    50% {
+
+        top: 13%;
+        left: 64%;
+
+    }
+
+}
+.img17 {
+position: absolute;
+    top: 13%;
+    left: 68%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move17;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.25s
+}
+
+@keyframes move17 {
+
+    0% {
+
+        top: 13%;
+        left: 68%
+
+    }
+
+    50% {
+
+        top: 13%;
+        left: 72%;
+
+    }
+
+}
+.img18 {
+position: absolute;
+    top: 13%;
+    left: 28%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move18;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.25s
+}
+
+@keyframes move18 {
+
+    0% {
+
+        top: 13%;
+        left: 28%
+
+    }
+
+    50% {
+
+        top: 13%;
+        left: 32%;
+
+    }
+
+}
+.img19 {
+position: absolute;
+    top: 13%;
+    left: 20%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move19;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.25s
+}
+
+@keyframes move19 {
+
+    0% {
+
+        top: 13%;
+        left: 20%
+
+    }
+
+    50% {
+
+        top: 13%;
+        left: 24%;
+
+    }
+
+}
+.img20 {
+position: absolute;
+    top: 13%;
+    left: 76%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move20;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.25s
+}
+
+@keyframes move20 {
+
+    0% {
+
+        top: 13%;
+        left: 76%
+
+    }
+
+    50% {
+
+        top: 13%;
+        left: 80%;
+
+    }
+
+}
+.img21 {
+position: absolute;
+    top: 13%;
+    left: 12%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move21;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.25s
+}
+
+@keyframes move21 {
+
+    0% {
+
+        top: 13%;
+        left: 12%
+
+    }
+
+    50% {
+
+        top: 13%;
+        left: 16%;
+
+    }
+
+}
+.img22 {
+position: absolute;
+    top: 13%;
+    left: 84%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move22;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.25s
+}
+
+@keyframes move22 {
+
+    0% {
+
+        top: 13%;
+        left: 84%
+
+    }
+
+    50% {
+
+        top: 13%;
+        left: 88%;
+
+    }
+
+}
+.img23 {
+    position: absolute;
+    top: 26%;
+    left: 12%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move23;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.75s
+}
+
+@keyframes move23 {
+
+    0% {
+
+        top: 26%;
+        left: 12%
+
+    }
+
+    50% {
+
+        top: 26%;
+        left: 16%;
+
+    }
+
+}
+.img24 {
+position: absolute;
+    top: 26%;
+    left: 20%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move24;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.75s
+}
+
+@keyframes move24 {
+
+    0% {
+
+        top: 26%;
+        left: 20%
+
+    }
+
+    50% {
+
+        top: 26%;
+        left: 24%;
+
+    }
+
+}
+.img25 {
+position: absolute;
+    top: 26%;
+    left: 36%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move25;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.75s
+}
+
+@keyframes move25 {
+
+    0% {
+
+        top: 26%;
+        left: 36%
+
+    }
+
+    50% {
+
+        top: 26%;
+        left: 40%;
+
+    }
+
+}
+.img26 {
+position: absolute;
+    top: 26%;
+    left: 44%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move26;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.75s
+}
+
+@keyframes move26 {
+
+    0% {
+
+        top: 26%;
+        left: 44%
+
+    }
+
+    50% {
+
+        top: 26%;
+        left: 48%;
+
+    }
+
+}
+.img27 {
+position: absolute;
+    top: 26%;
+    left: 52%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move27;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.75s
+}
+
+@keyframes move27 {
+
+    0% {
+
+        top: 26%;
+        left: 52%
+
+    }
+
+    50% {
+
+        top: 26%;
+        left: 56%;
+
+    }
+
+}
+.img28 {
+position: absolute;
+    top: 26%;
+    left: 60%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move28;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.75s
+}
+
+@keyframes move28 {
+
+    0% {
+
+        top: 26%;
+        left: 60%
+
+    }
+
+    50% {
+
+        top: 26%;
+        left: 64%;
+
+    }
+
+}
+.img29 {
+position: absolute;
+    top: 26%;
+    left: 68%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move29;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.75s
+}
+
+@keyframes move29 {
+
+    0% {
+
+        top: 26%;
+        left: 68%
+
+    }
+
+    50% {
+
+        top: 26%;
+        left: 72%;
+
+    }
+
+}
+.img30 {
+position: absolute;
+    top: 26%;
+    left: 76%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move30;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.75s
+}
+
+@keyframes move30 {
+
+    0% {
+
+        top: 26%;
+        left: 76%
+
+    }
+
+    50% {
+
+        top: 26%;
+        left: 80%;
+
+    }
+
+}
+.img31 {
+position: absolute;
+    top: 26%;
+    left: 28%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move31;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.75s
+}
+
+@keyframes move31 {
+
+    0% {
+
+        top: 26%;
+        left: 28%
+
+    }
+
+    50% {
+
+        top: 26%;
+        left: 32%;
+
+    }
+
+}
+.img32 {
+position: absolute;
+    top: 26%;
+    left: 84%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move32;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.75s
+}
+
+@keyframes move32 {
+
+    0% {
+
+        top: 26%;
+        left: 84%
+
+    }
+
+    50% {
+
+        top: 26%;
+        left: 88%;
+
+    }
+
+}
+.img33 {
+position: absolute;
+    top: 7%;
+    left: 12%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move33;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.175s
+}
+
+@keyframes move33 {
+
+    0% {
+
+        top: 7%;
+        left: 12%
+
+    }
+
+    50% {
+
+        top: 7%;
+        left: 8%;
+
+    }
+
+}
+.img34 {
+position: absolute;
+    top: 7%;
+    left: 20%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move34;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.175s
+}
+
+@keyframes move34 {
+
+    0% {
+
+        top: 7%;
+        left: 20%
+
+    }
+
+    50% {
+
+        top: 7%;
+        left: 16%;
+
+    }
+
+}
+.img35 {
+position: absolute;
+    top: 7%;
+    left: 28%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move35;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.175s
+}
+
+@keyframes move35 {
+
+    0% {
+
+        top: 7%;
+        left: 28%
+
+    }
+
+    50% {
+
+        top: 7%;
+        left: 24%;
+
+    }
+
+}
+.img36 {
+position: absolute;
+    top: 7%;
+    left: 36%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move36;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.175s
+}
+
+@keyframes move36 {
+
+    0% {
+
+        top: 7%;
+        left: 36%
+
+    }
+
+    50% {
+
+        top: 7%;
+        left: 32%;
+
+    }
+
+}
+.img37 {
+position: absolute;
+    top: 7%;
+    left: 44%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move37;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.175s
+}
+
+@keyframes move37 {
+
+    0% {
+
+        top: 7%;
+        left: 44%
+
+    }
+
+    50% {
+
+        top: 7%;
+        left: 40%;
+
+    }
+
+}
+.img38 {
+position: absolute;
+    top: 7%;
+    left: 52%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move38;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.175s
+}
+
+@keyframes move38 {
+
+    0% {
+
+        top: 7%;
+        left: 52%
+
+    }
+
+    50% {
+
+        top: 7%;
+        left: 48%;
+
+    }
+
+}
+.img39 {
+position: absolute;
+    top: 7%;
+    left: 60%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move39;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.175s
+}
+
+@keyframes move39 {
+
+    0% {
+
+        top: 7%;
+        left: 60%
+
+    }
+
+    50% {
+
+        top: 7%;
+        left: 56%;
+
+    }
+
+}
+.img40 {
+position: absolute;
+    top: 7%;
+    left: 68%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move40;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.175s
+}
+
+@keyframes move40 {
+
+    0% {
+
+        top: 7%;
+        left: 68%
+
+    }
+
+    50% {
+
+        top: 7%;
+        left: 64%;
+
+    }
+
+}
+.img41 {
+position: absolute;
+    top: 7%;
+    left: 76%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move41;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.175s
+}
+
+@keyframes move41 {
+
+    0% {
+
+        top: 7%;
+        left: 76%
+
+    }
+
+    50% {
+
+        top: 7%;
+        left: 72%;
+
+    }
+
+}
+.img42 {
+position: absolute;
+    top: 7%;
+    left: 84%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move42;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.175s
+}
+
+@keyframes move42 {
+
+    0% {
+
+        top: 7%;
+        left: 84%
+
+    }
+
+    50% {
+
+        top: 7%;
+        left: 80%;
+
+    }
+
+}
+.img43 {
+position: absolute;
+    top: 33%;
+    left: 11%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move43;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.125s
+}
+
+@keyframes move43 {
+
+    0% {
+
+        top: 33%;
+        left: 11%
+
+    }
+
+    50% {
+
+        top: 33%;
+        left: 7%;
+
+    }
+
+}
+.img44 {
+position: absolute;
+    top: 33%;
+    left: 19%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move44;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.125s
+}
+
+@keyframes move44 {
+
+    0% {
+
+        top: 33%;
+        left: 19%
+
+    }
+
+    50% {
+
+        top: 33%;
+        left: 15%;
+
+    }
+
+}
+.img45 {
+position: absolute;
+    top: 33%;
+    left: 27%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move45;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.125s
+}
+
+@keyframes move45 {
+
+    0% {
+
+        top: 33%;
+        left: 27%
+
+    }
+
+    50% {
+
+        top: 33%;
+        left: 23%;
+
+    }
+
+}
+.img46 {
+position: absolute;
+    top: 33%;
+    left: 35%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move46;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.125s
+}
+
+@keyframes move46 {
+
+    0% {
+
+        top: 33%;
+        left: 35%
+
+    }
+
+    50% {
+
+        top: 33%;
+        left: 31%;
+
+    }
+
+}
+.img47 {
+position: absolute;
+    top: 33%;
+    left: 43%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move47;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.125s
+}
+
+@keyframes move47 {
+
+    0% {
+
+        top: 33%;
+        left: 43%
+
+    }
+
+    50% {
+
+        top: 33%;
+        left: 39%;
+
+    }
+
+}
+.img48 {
+position: absolute;
+    top: 33%;
+    left: 51%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move48;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.125s
+}
+
+@keyframes move48 {
+
+    0% {
+
+        top: 33%;
+        left: 51%
+
+    }
+
+    50% {
+
+        top: 33%;
+        left: 47%;
+
+    }
+
+}
+.img49 {
+position: absolute;
+    top: 33%;
+    left: 59%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move49;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.125s
+}
+
+@keyframes move49 {
+
+    0% {
+
+        top: 33%;
+        left: 59%
+
+    }
+
+    50% {
+
+        top: 33%;
+        left: 55%;
+
+    }
+
+}
+.img50 {
+position: absolute;
+    top: 33%;
+    left: 67%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move50;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.125s
+}
+
+@keyframes move50 {
+
+    0% {
+
+        top: 33%;
+        left: 67%
+
+    }
+
+    50% {
+
+        top: 33%;
+        left: 63%;
+
+    }
+
+}
+.img51 {
+position: absolute;
+    top: 33%;
+    left: 75%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move51;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.125s
+}
+
+@keyframes move51 {
+
+    0% {
+
+        top: 33%;
+        left: 75%
+
+    }
+
+    50% {
+
+        top: 33%;
+        left: 71%;
+
+    }
+
+}
+.img52 {
+position: absolute;
+    top: 33%;
+    left: 83%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move52;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.125s
+}
+
+@keyframes move52 {
+
+    0% {
+
+        top: 33%;
+        left: 83%
+
+    }
+
+    50% {
+
+        top: 33%;
+        left: 79%;
+
+    }
+
+}
+.img53 {
+position: absolute;
+    top: 42%;
+    left: 12%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move53;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.125s
+}
+
+@keyframes move53 {
+
+    0% {
+
+        top: 42%;
+        left: 12%
+
+    }
+
+    50% {
+
+        top: 42%;
+        left: 16%;
+
+    }
+
+}
+.img54 {
+position: absolute;
+    top: 42%;
+    left: 20%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move54;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.125s
+}
+
+@keyframes move54 {
+
+    0% {
+
+        top: 42%;
+        left: 20%
+
+    }
+
+    50% {
+
+        top: 42%;
+        left: 24%;
+
+    }
+
+}
+.img55 {
+position: absolute;
+    top: 42%;
+    left: 28%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move55;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.125s
+}
+
+@keyframes move55 {
+
+    0% {
+
+        top: 42%;
+        left: 28%
+
+    }
+
+    50% {
+
+        top: 42%;
+        left: 32%;
+
+    }
+
+}
+.img56 {
+position: absolute;
+    top: 42%;
+    left: 36%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move56;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.125s
+}
+
+@keyframes move56 {
+
+    0% {
+
+        top: 42%;
+        left: 36%
+
+    }
+
+    50% {
+
+        top: 42%;
+        left: 40%;
+
+    }
+
+}
+.img57 {
+position: absolute;
+    top: 42%;
+    left: 44%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move57;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.125s
+}
+
+@keyframes move57 {
+
+    0% {
+
+        top: 42%;
+        left: 44%
+
+    }
+
+    50% {
+
+        top: 42%;
+        left: 48%;
+
+    }
+
+}
+.img58 {
+position: absolute;
+    top: 42%;
+    left: 52%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move58;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.125s
+}
+
+@keyframes move58 {
+
+    0% {
+
+        top: 42%;
+        left: 52%
+
+    }
+
+    50% {
+
+        top: 42%;
+        left: 56%;
+
+    }
+
+}
+.img59 {
+position: absolute;
+    top: 42%;
+    left: 60%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move59;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.125s
+}
+
+@keyframes move59 {
+
+    0% {
+
+        top: 42%;
+        left: 60%
+
+    }
+
+    50% {
+
+        top: 42%;
+        left: 64%;
+
+    }
+
+}
+.img60 {
+position: absolute;
+    top: 42%;
+    left: 68%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move60;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.125s
+}
+
+@keyframes move60 {
+
+    0% {
+
+        top: 42%;
+        left: 68%
+
+    }
+
+    50% {
+
+        top: 42%;
+        left: 72%;
+
+    }
+
+}
+.img61 {
+position: absolute;
+    top: 42%;
+    left: 76%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move61;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.125s
+}
+
+@keyframes move61 {
+
+    0% {
+
+        top: 42%;
+        left: 76%
+
+    }
+
+    50% {
+
+        top: 42%;
+        left: 80%;
+
+    }
+
+}
+.img62 {
+position: absolute;
+    top: 42%;
+    left: 84%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: move62;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.125s
+}
+
+@keyframes move62 {
+
+    0% {
+
+        top: 42%;
+        left: 84%
+
+    }
+
+    50% {
+
+        top: 42%;
+        left: 88%;
+
+    }
+
+}
+.explode {
+
+    display: none;
+
+    
+}
+.start {
+
+    display: none;
+    
+}
+.bullet {
+
+    display: none;
+}
