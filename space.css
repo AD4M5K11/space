@@ -1,0 +1,1488 @@
+  * {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    background-size: 100% 100%;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    max-width: 200%;
+    max-width: 200%;
+    min-width: 1%;
+    min-height: 1%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.lives {
+    color: white;
+    position: absolute; 
+    height: 15%;
+    width: 15%;
+    top: 90%;
+    left: 1%;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: Score;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+.onelife, .twolife, .threelife {
+    position: absolute;
+    bottom: 2%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.15);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.onelife {
+    left: 0.1%;
+    animation-name: lives;
+    animation-delay: 0.5s;
+}
+
+@keyframes lives {
+    0%{
+        transform: scale(0.15);
+    }
+    50%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(0.15);
+    }
+}
+
+.twolife {
+    left: 1.8%;
+    animation-name: lives;
+    animation-delay: 1.5s;
+}
+
+.threelife {
+    left: 3.4%;
+    animation-name: lives;
+    animation-delay: 2.5s;
+}
+
+.score {
+    color: white;
+    position: absolute; 
+    height: 15%;
+    width: 15%;
+    top: 83%;
+    left: 1%;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: Score;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Score {
+    0% {
+        color: white;
+    }
+    50% {
+        color: transparent;
+    }
+    100%{
+        color: white;
+    }
+}
+
+.border {
+    right: 4.3%;
+    border: 10px solid red;
+    height: 100%;
+    width: 87.4%;
+    z-index: 4;
+    bottom: 0%;
+    position: absolute;
+    display: flex;
+}
+
+.s {
+    left: 4%;
+    top: 10%;
+    animation-duration: 2s;
+}
+
+    @keyframes S {
+        0%{
+            color: white;
+        }
+        10%{
+             color: aqua;
+        }
+        20%{
+            color: coral;
+        }
+        30%{
+            color: gold;
+        }
+        40%{
+            color: red;
+        }
+        50%{
+            color: olive;
+        }
+        60%{
+            color: pink;
+        }
+        70% {
+            color: palevioletred;
+        }
+        80%{
+            color: paleturquoise;
+        }
+        90%{
+            color: orchid;
+        }
+        100% {
+            color: crimson;
+        }
+    }
+
+.p {
+    left: 4%;
+    top: 25%;
+    animation-duration: 1.75s;
+}
+
+
+.a {
+    left: 3%;
+    top: 40%;
+    animation-duration: 1.5s;
+}
+
+.c {
+    left: 3%;
+    top: 55%;
+    animation-duration: 1.25s;
+}
+
+.e {
+    left: 3%;
+    top: 70%;
+    animation-duration: 1s;
+}
+
+.s, .p, .a, .c, .e {
+    font-size: 500%;
+    color: white;
+    position: absolute;
+    animation-name: S;
+    animation-iteration-count: infinite;
+}
+
+.i {
+    right: 2%;
+    top: 5%;
+    animation-duration: 1.5s;
+}
+
+.n {
+    right: 1%;
+    top: 15%;
+    animation-duration: 1.75s;
+}
+
+    @keyframes I {
+        0%{
+            color: white;
+        }
+        5%{
+            color: coral;
+        }
+        10%{
+            color: aqua;
+        }
+        15%{
+            color: pink
+        }
+        20%{
+            color: coral;
+        }
+        25%{
+            color: indigo;
+        }
+        30%{
+            color: gold;
+        }
+        35%{
+            color: aquamarine
+        }
+        40%{
+
+            color: red;
+        }
+        45%{
+            color: rosybrown;
+        }
+        50%{
+            color: lightcyan;
+        }
+        55%{
+            color: lightsalmon;
+        }
+        60%{
+            color: pink;
+        }
+        65%{
+            color: lemonchiffon;
+        }
+        70% {
+            color: palevioletred;
+        }
+        75%{
+            color: lime;
+        }
+        80%{
+            color: paleturquoise;
+        }
+        85%{
+            color: lightgreen;
+        }
+        90%{
+            color: orchid;
+        }
+        95%{
+            color: lightsalmon;
+        }
+        100% {
+            color: crimson;
+        }
+    }
+
+.v {
+    right: 1%;
+    top: 25%;
+    animation-duration: 5s;
+}
+
+.aa {
+    right: 1%;
+    top: 35%;
+    animation-duration: 0.8s;
+}
+
+.d {
+    right: 1%;
+    top: 45%;
+    animation-duration: 1.2s;
+}
+
+.ee {
+    right: 1.5%;
+    top: 55%;
+    animation-duration: 2.5s;
+}
+
+.r {
+    right: 1%;
+    top: 65%;
+    animation-duration: 3s;
+}
+
+.ss {
+    right: 1.5%;
+    top: 75%;
+    animation-duration: 6s;
+}
+
+.i, .n, .v, .aa, .d, .ee, .r, .ss {
+    font-size: 400%;
+    color: white;
+    position: absolute;
+    animation-name: I;
+    animation-iteration-count: infinite; 
+}
+
+.img1, .img2, .img3, .img4, .img5, 
+.img6, .img7, .img8, .img9, .img10 {
+    position: absolute;
+    top: 20%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-duration: 1s;
+    animation-iteration-count: infinite; 
+}
+
+.img1 {
+    left: 84%;
+    animation-name: move1;
+}
+
+@keyframes move1 {
+    0% {
+        top: 20%;
+        left: 84%; 
+    }
+    50% {
+        background-image: url(/invaders\ 2.png);
+        z-index: 5;
+        top: 20%; 
+        left: 80%;
+    }
+}
+
+.img2 {
+    left: 76%;
+    animation-name: move2;
+}
+
+@keyframes move2 {
+    0% {
+        top: 20%;
+        left: 76%; 
+    }
+    50% {
+        background-image: url(/invaders\ 2.png);
+        z-index: 5;
+        top: 20%; 
+        left: 72%;
+    }
+}
+
+.img3 {
+    left: 68%;
+    animation-name: move3;
+}
+
+@keyframes move3 {
+    0% {
+        top: 20%;
+        left: 68%; 
+    }
+    50% {
+        background-image: url(/invaders\ 2.png);
+        z-index: 5;
+        top: 20%; 
+        left: 64%;
+    }
+}
+
+.img4 {
+    left: 60%;
+    animation-name: move4;
+}
+
+@keyframes move4 {
+    0% {
+        top: 20%;
+        left: 60%; 
+    }
+    50% {
+        background-image: url(/invaders\ 2.png);
+        z-index: 5;
+        top: 20%; 
+        left: 56%;
+    }
+}
+
+.img5 {
+    left: 52%;
+    animation-name: move5;
+}
+
+@keyframes move5 {
+    0% {
+        top: 20%;
+        left: 52%; 
+    }
+    50% {
+        background-image: url(/invaders\ 2.png);
+        z-index: 5;
+        top: 20%; 
+        left: 48%;
+    }
+}
+
+.img6 {
+    left: 44%;
+    animation-name: move6;
+}
+
+@keyframes move6 {
+    0% {
+        top: 20%;
+        left: 44%; 
+    }
+    50% {
+        background-image: url(/invaders\ 2.png);
+        z-index: 5;
+        top: 20%; 
+        left: 40%;
+    }
+}
+
+.img7 {
+    left: 36%;
+    animation-name: move7;
+}
+
+@keyframes move7 {
+    0% {
+        top: 20%;
+        left: 36%; 
+    }
+    50% {
+        background-image: url(/invaders\ 2.png);
+        z-index: 5;
+        top: 20%; 
+        left: 32%;
+    }
+}
+
+.img8 {
+    left: 28%;
+    animation-name: move8;
+}
+
+@keyframes move8 {
+    0% {
+        top: 20%;
+        left: 28%; 
+    }
+    50% {
+        background-image: url(/invaders\ 2.png);
+        z-index: 5;
+        top: 20%; 
+        left: 24%;
+    }
+}
+
+.img9 {
+    left: 20%;
+    animation-name: move9;
+}
+
+@keyframes move9 {
+    0% {
+        top: 20%;
+        left: 20%; 
+    }
+    50% {
+        background-image: url(/invaders\ 2.png);
+        z-index: 5;
+        top: 20%; 
+        left: 16%;
+    }
+}
+
+.img10 {
+    left: 12%;
+    animation-name: move10;
+}
+
+@keyframes move10 {
+    0% {
+        top: 20%;
+        left: 12%; 
+    }
+    50% {
+        background-image: url(/invaders\ 2.png);
+        z-index: 5;
+        top: 20%; 
+        left: 8%;
+    }
+}
+
+.img11, .img111 {
+    position: absolute;
+    top: 0%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.img11 {
+    left: 30%;
+    animation-name: move11;
+}
+
+@keyframes move11 {
+    0% {
+        top: 0%;
+        left: 30%; 
+    }
+
+    33% {
+        z-index: 5;
+        top: 0%; 
+        left: 33%;
+    }
+    67% {
+        top: 0%;
+        left: 27%;
+    }
+}
+
+.img111 {
+    left: 60%;
+    animation-name: move111;
+}
+
+@keyframes move111 {
+    0% {
+        top: 0%;
+        left: 60%; 
+    }
+    33% {
+        z-index: 5;
+        top: 0%; 
+        left: 63%;
+    }
+    67% {
+        top: 0%;
+        left: 57%;
+    }
+}
+
+#ship {
+    position: absolute;
+    bottom: -1.5%;
+    left: 46.5%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.7);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+}
+
+.img13, .img14, .img15, .img16, .img17, 
+.img18, .img19, .img20, .img21, .img22 {
+    position: absolute;
+    top: 13%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.25s
+}
+
+.img13 {
+    left: 36%;
+    animation-name: move13;
+}
+
+@keyframes move13 {
+    0% {
+        top: 13%;
+        left: 36%
+    }
+    50% {
+        top: 13%;
+        left: 40%;
+    }
+}
+
+.img14 {
+    left: 52%;
+    animation-name: move14;
+}
+
+@keyframes move14 {
+    0% {
+        top: 13%;
+        left: 52%
+    }
+    50% {
+        top: 13%;
+        left: 56%;
+    }
+}
+
+.img15 {
+    left: 44%;
+    animation-name: move15;
+}
+
+@keyframes move15 {
+    0% {
+        top: 13%;
+        left: 44%
+    }
+    50% {
+        top: 13%;
+        left: 48%;
+    }
+}
+
+.img16 {
+    left: 60%;
+    animation-name: move16;
+}
+
+@keyframes move16 {
+    0% {
+        top: 13%;
+        left: 60%
+    }
+    50% {
+        top: 13%;
+        left: 64%;
+    }
+}
+
+.img17 {
+    left: 68%;
+    animation-name: move17;
+}
+
+@keyframes move17 {
+    0% {
+        top: 13%;
+        left: 68%
+    }
+    50% {
+        top: 13%;
+        left: 72%;
+    }
+}
+
+.img18 {
+    left: 28%;
+    animation-name: move18;
+}
+
+@keyframes move18 {
+    0% {
+        top: 13%;
+        left: 28%
+    }
+    50% {
+        top: 13%;
+        left: 32%;
+    }
+}
+
+.img19 {
+    left: 20%;
+    animation-name: move19;
+}
+
+@keyframes move19 {
+    0% {
+        top: 13%;
+        left: 20%
+    }
+    50% {
+        top: 13%;
+        left: 24%;
+    }
+}
+
+.img20 {
+    left: 76%;
+    animation-name: move20;
+}
+
+@keyframes move20 {
+    0% {
+        top: 13%;
+        left: 76%
+    }
+    50% {
+        top: 13%;
+        left: 80%;
+    }
+}
+
+.img21 {
+    left: 12%;
+    animation-name: move21;
+}
+
+@keyframes move21 {
+    0% {
+        top: 13%;
+        left: 12%
+    }
+    50% {
+        top: 13%;
+        left: 16%;
+    }
+}
+
+.img22 {
+    left: 84%;
+    animation-name: move22;
+}
+
+@keyframes move22 {
+    0% {
+        top: 13%;
+        left: 84%
+    }
+    50% {
+        top: 13%;
+        left: 88%;
+    }
+}
+
+.img23, .img24, .img25, .img26, .img27, 
+.img28, .img29, .img30, .img31, .img32 {
+    position: absolute;
+    top: 26%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.75s
+}
+
+.img23 {
+    left: 12%;
+    animation-name: move23;
+}
+
+@keyframes move23 {
+    0% {
+        top: 26%;
+        left: 12%
+    }
+    50% {
+        top: 26%;
+        left: 16%;
+    }
+}
+
+.img24 {
+    left: 20%;
+    animation-name: move24;
+}
+
+@keyframes move24 {
+    0% {
+        top: 26%;
+        left: 20%
+    }
+    50% {
+        top: 26%;
+        left: 24%;
+    }
+}
+
+.img25 {
+    left: 36%;
+    animation-name: move25;
+}
+
+@keyframes move25 {
+    0% {
+        top: 26%;
+        left: 36%
+    }
+    50% {
+        top: 26%;
+        left: 40%;
+    }
+}
+
+.img26 {
+    left: 44%;
+    animation-name: move26;
+}
+
+@keyframes move26 {
+    0% {
+        top: 26%;
+        left: 44%
+    }
+    50% {
+        top: 26%;
+        left: 48%;
+    }
+}
+
+.img27 {
+    left: 52%;
+    animation-name: move27;
+}
+
+@keyframes move27 {
+    0% {
+        top: 26%;
+        left: 52%
+    }
+    50% {
+        top: 26%;
+        left: 56%;
+    }
+}
+
+.img28 {
+    left: 60%;
+    animation-name: move28;
+}
+
+@keyframes move28 {
+    0% {
+        top: 26%;
+        left: 60%
+    }
+    50% {
+        top: 26%;
+        left: 64%;
+    }
+}
+
+.img29 {
+    left: 68%;
+    animation-name: move29;
+}
+
+@keyframes move29 {
+    0% {
+        top: 26%;
+        left: 68%
+    }
+    50% {
+        top: 26%;
+        left: 72%;
+    }
+}
+
+.img30 {
+    left: 76%;
+    animation-name: move30;
+}
+
+@keyframes move30 {
+    0% {
+        top: 26%;
+        left: 76%
+    }
+    50% {
+        top: 26%;
+        left: 80%;
+    }
+}
+
+.img31 {
+    left: 28%;
+    animation-name: move31;
+}
+
+@keyframes move31 {
+    0% {
+        top: 26%;
+        left: 28%
+    }
+    50% {
+        top: 26%;
+        left: 32%;
+    }
+}
+
+.img32 {
+    left: 84%;
+    animation-name: move32;
+}
+
+@keyframes move32 {
+    0% {
+        top: 26%;
+        left: 84%
+    }
+    50% {
+        top: 26%;
+        left: 88%;
+    }
+}
+
+.img33, .img34, .img35, .img36, .img37, 
+.img38, .img39, .img40, .img41, .img42 {
+    position: absolute;
+    top: 7%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.175s
+}
+
+.img33 {
+    left: 12%;
+    animation-name: move33;
+}
+
+@keyframes move33 {
+    0% {
+        top: 7%;
+        left: 12%
+    }
+    50% {
+        top: 7%;
+        left: 8%;
+    }
+}
+
+.img34 {
+    left: 20%;
+    animation-name: move34;
+}
+
+@keyframes move34 {
+    0% {
+        top: 7%;
+        left: 20%
+    }
+    50% {
+        top: 7%;
+        left: 16%;
+    }
+}
+
+.img35 {
+    left: 28%;
+    animation-name: move35;
+}
+
+@keyframes move35 {
+    0% {
+        top: 7%;
+        left: 28%
+    }
+    50% {
+        top: 7%;
+        left: 24%;
+    }
+}
+
+.img36 {
+    left: 36%;
+    animation-name: move36;
+}
+
+@keyframes move36 {
+    0% {
+        top: 7%;
+        left: 36%
+    }
+    50% {
+        top: 7%;
+        left: 32%;
+    }
+}
+
+.img37 {
+    left: 44%;
+    animation-name: move37;
+}
+
+@keyframes move37 {
+    0% {
+        top: 7%;
+        left: 44%
+    }
+    50% {
+        top: 7%;
+        left: 40%;
+    }
+}
+
+.img38 {
+    left: 52%;
+    animation-name: move38;
+}
+
+@keyframes move38 {
+    0% {
+        top: 7%;
+        left: 52%
+    }
+    50% {
+        top: 7%;
+        left: 48%;
+    }
+}
+
+.img39 {
+    left: 60%;
+    animation-name: move39;
+}
+
+@keyframes move39 {
+    0% {
+        top: 7%;
+        left: 60%
+    }
+    50% {
+        top: 7%;
+        left: 56%;
+    }
+}
+
+.img40 {
+    left: 68%;
+    animation-name: move40;
+}
+
+@keyframes move40 {
+    0% {
+        top: 7%;
+        left: 68%
+    }
+    50% {
+        top: 7%;
+        left: 64%;
+    }
+}
+
+.img41 {
+    left: 76%;
+    animation-name: move41;
+}
+
+@keyframes move41 {
+    0% {
+        top: 7%;
+        left: 76%
+    }
+    50% {
+        top: 7%;
+        left: 72%;
+    }
+}
+
+.img42 {
+    left: 84%;
+    animation-name: move42;
+}
+
+@keyframes move42 {
+    0% {
+        top: 7%;
+        left: 84%
+    }
+    50% {
+        top: 7%;
+        left: 80%;
+    }
+}
+
+.img43, .img44, .img45, .img46, .img47, 
+.img48, .img49, .img50, .img51, .img52 {
+    position: absolute;
+    top: 33%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.125s
+}
+
+.img43 {
+    left: 11%;
+    animation-name: move43;
+}
+
+@keyframes move43 {
+    0% {
+        top: 33%;
+        left: 11%
+    }
+    50% {
+        top: 33%;
+        left: 7%;
+    }
+}
+
+.img44 {
+    left: 19%;
+    animation-name: move44;
+}
+
+@keyframes move44 {
+    0% {
+        top: 33%;
+        left: 19%
+    }
+    50% {
+        top: 33%;
+        left: 15%;
+    }
+}
+
+.img45 {
+    left: 27%;
+    animation-name: move45;
+}
+
+@keyframes move45 {
+    0% {
+        top: 33%;
+        left: 27%
+    }
+    50% {
+        top: 33%;
+        left: 23%;
+    }
+}
+
+.img46 {
+    left: 35%;
+    animation-name: move46;
+}
+
+@keyframes move46 {
+    0% {
+        top: 33%;
+        left: 35%
+    }
+    50% {
+        top: 33%;
+        left: 31%;
+    }
+}
+
+.img47 {
+    left: 43%;
+    animation-name: move47;
+}
+
+@keyframes move47 {
+    0% {
+        top: 33%;
+        left: 43%
+    }
+    50% {
+        top: 33%;
+        left: 39%;
+    }
+}
+
+.img48 {
+    left: 51%;
+    animation-name: move48;
+}
+
+@keyframes move48 {
+    0% {
+        top: 33%;
+        left: 51%
+    }
+    50% {
+        top: 33%;
+        left: 47%;
+    }
+}
+
+.img49 {
+    left: 59%;
+    animation-name: move49;
+}
+
+@keyframes move49 {
+    0% {
+        top: 33%;
+        left: 59%
+    }
+    50% {
+        top: 33%;
+        left: 55%;
+    }
+}
+
+.img50 {
+    left: 67%;
+    animation-name: move50;
+}
+
+@keyframes move50 {
+    0% {
+        top: 33%;
+        left: 67%
+    }
+    50% {
+        top: 33%;
+        left: 63%;
+    }
+}
+
+.img51 {
+    left: 75%;
+    animation-name: move51;
+}
+
+@keyframes move51 {
+    0% {
+        top: 33%;
+        left: 75%
+    }
+    50% {
+        top: 33%;
+        left: 71%;
+    }
+}
+
+.img52 {
+    left: 83%;
+    animation-name: move52;
+}
+
+@keyframes move52 {
+    0% {
+        top: 33%;
+        left: 83%
+    }
+    50% {
+        top: 33%;
+        left: 79%;
+    }
+}
+
+.img53, .img54, .img55, .img56, .img57, 
+.img58, .img59, .img60, .img61, .img62 {
+    position: absolute;
+    top: 42%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.4);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.125s
+}
+
+.img53 {
+    left: 12%;
+    animation-name: move53;
+}
+
+@keyframes move53 {
+    0% {
+        top: 42%;
+        left: 12%
+    }
+    50% {
+        top: 42%;
+        left: 16%;
+    }
+}
+
+.img54 {
+    left: 20%;
+    animation-name: move54;
+}
+
+@keyframes move54 {
+    0% {
+        top: 42%;
+        left: 20%
+    }
+    50% {
+        top: 42%;
+        left: 24%;
+    }
+}
+
+.img55 {
+    left: 28%;
+    animation-name: move55;
+}
+
+@keyframes move55 {
+    0% {
+        top: 42%;
+        left: 28%
+    }
+    50% {
+        top: 42%;
+        left: 32%;
+    }
+}
+
+.img56 {
+    left: 36%;
+    animation-name: move56;
+}
+
+@keyframes move56 {
+    0% {
+        top: 42%;
+        left: 36%
+    }
+    50% {
+        top: 42%;
+        left: 40%;
+    }
+}
+
+.img57 {
+    left: 44%;
+    animation-name: move57;
+}
+
+@keyframes move57 {
+    0% {
+        top: 42%;
+        left: 44%
+    }
+    50% {
+        top: 42%;
+        left: 48%;
+    }
+}
+
+.img58 {
+    left: 52%;
+    animation-name: move58;
+}
+
+@keyframes move58 {
+    0% {
+        top: 42%;
+        left: 52%
+    }
+    50% {
+        top: 42%;
+        left: 56%;
+    }
+}
+
+.img59 {
+    left: 60%;
+    animation-name: move59;
+}
+
+@keyframes move59 {
+    0% {
+        top: 42%;
+        left: 60%
+    }
+    50% {
+        top: 42%;
+        left: 64%;
+    }
+}
+
+.img60 {
+    left: 68%;
+    animation-name: move60;
+}
+
+@keyframes move60 {
+    0% {
+        top: 42%;
+        left: 68%
+    }
+    50% {
+        top: 42%;
+        left: 72%;
+    }
+}
+
+.img61 {
+    left: 76%;
+    animation-name: move61;
+}
+
+@keyframes move61 {
+    0% {
+        top: 42%;
+        left: 76%
+    }
+    50% {
+        top: 42%;
+        left: 80%;
+    }
+}
+
+.img62 {
+    left: 84%;
+    animation-name: move62;
+}
+
+@keyframes move62 {
+    0% {
+        top: 42%;
+        left: 84%
+    }
+    50% {
+        top: 42%;
+        left: 88%;
+    }
+}
+
+.explode {
+    display: none;
+}
+.start {
+    display: none;
+}
+.bullet {
+    display: none;
+}
