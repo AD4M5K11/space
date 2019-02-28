@@ -40,6 +40,23 @@ body {
 
 }
 
+.life {
+
+    color: white;
+    position: absolute; 
+    height: 15%;
+    width: 15%;
+    top: 90%;
+    left: 1%;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: Score;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+
+}
+
 .onelife {
 
     position: absolute;
@@ -151,7 +168,7 @@ body {
 
     50% {
 
-        color: black;
+        color: transparent;
 
     }
 
