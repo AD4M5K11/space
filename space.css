@@ -24,12 +24,151 @@ body {
 
 }
 
+.lives {
+
+    color: white;
+    position: absolute; 
+    height: 15%;
+    width: 15%;
+    top: 90%;
+    left: 1%;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: Score;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+
+.onelife {
+
+    position: absolute;
+    bottom: 2%;
+    left: 0.3%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.2);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: lives;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+
+}
+
+@keyframes lives {
+
+    0%{
+
+        transform: scale(0.2);
+
+    }
+
+    50%{
+
+        transform: scale(0);
+
+    }
+
+    100%{
+
+        transform: scale(0.2);
+
+    }
+    
+}
+
+.twolife {
+
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.2);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: lives;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.5s;
+
+}
+
+.threelife {
+
+    position: absolute;
+    bottom: 2%;
+    left: 3.6%;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: scale(0.2);
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: lives;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 2.5s;
+
+}
+
+.score {
+
+    color: white;
+    position: absolute; 
+    height: 15%;
+    width: 15%;
+    top: 83%;
+    left: 1%;
+    margin: 0;
+    background-size: 100% 100%;
+    animation-name: Score;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes Score {
+
+    0% {
+
+        color: white;
+
+    }
+
+    50% {
+
+        color: black;
+
+    }
+
+    100%{
+
+        color: white;
+
+    }
+
+}
+
 .border {
 
     right: 5.25%;
     border: 10px solid red;
     height: 100%;
-    width: 85.8%;
+    width: 86%;
     z-index: 4;
     bottom: 0%;
     position: absolute;
@@ -39,135 +178,323 @@ body {
 
 .s {
 
-    font-size: 5rem;
-    color: white;
-    left: 3%;
+    left: 4%;
     top: 10%;
-    position: absolute;
-
+    animation-duration: 2s;
 
 }
+
+    @keyframes S {
+
+        0%{
+
+            color: white;
+
+        }
+
+        10%{
+
+            color: aqua;
+
+        }
+
+        20%{
+
+            color: coral;
+
+        }
+
+        30%{
+
+            color: gold;
+
+        }
+
+        40%{
+
+            color: red;
+
+        }
+
+        50%{
+
+            color: olive;
+
+        }
+
+        60%{
+
+            color: pink;
+
+        }
+
+        70% {
+
+            color: palevioletred;
+
+        }
+
+        80%{
+
+            color: paleturquoise;
+
+        }
+
+        90%{
+
+            color: orchid;
+
+        }
+
+        100% {
+
+            color: crimson;
+        
+        }
+
+    }
 
 .p {
 
-    font-size: 5rem;
-    color: white;
-    left: 3%;
+    left: 4%;
     top: 25%;
-    position: absolute;
+    animation-duration: 1.75s;
 
 }
 
+
 .a {
 
-    font-size: 5rem;
-    color: white;
-    left: 2%;
+    left: 3%;
     top: 40%;
-    position: absolute;
+    animation-duration: 1.5s;
 
 }
 
 .c {
 
-    font-size: 5rem;
-    color: white;
-    left: 2%;
+    left: 3%;
     top: 55%;
-    position: absolute;
+    animation-duration: 1.25s;
 
 }
 
 .e {
 
-    font-size: 5rem;
-    color: white;
-    left: 2%;
+    left: 3%;
     top: 70%;
-    position: absolute;
+    animation-duration: 1s;
 
+}
+
+.s, .p, .a, .c, .e {
+    font-size: 500%;
+    color: white;
+    position: absolute;
+    animation-name: S;
+    animation-iteration-count: infinite;
 }
 
 .i {
 
-    font-size: 5rem;
-    color: white;
     right: 2%;
     top: 5%;
-    position: absolute;
-
+    animation-duration: 1.5s;
 }
 
 .n {
 
-    font-size: 5rem;
-    color: white;
     right: 1%;
     top: 15%;
-    position: absolute;
+    animation-duration: 1.75s;
 
 }
 
+    @keyframes I {
+
+        0%{
+
+            color: white;
+
+        }
+
+        5%{
+
+            color: coral;
+
+        }
+
+        10%{
+
+            color: aqua;
+
+        }
+
+        15%{
+
+            color: pink
+
+        }
+
+        20%{
+
+            color: coral;
+
+        }
+
+        25%{
+
+            color: indigo;
+
+        }
+
+        30%{
+
+            color: gold;
+
+        }
+
+        35%{
+
+            color: aquamarine
+        
+        }
+
+        40%{
+
+            color: red;
+
+        }
+
+        45%{
+
+            color: rosybrown;
+
+        }
+
+        50%{
+
+            color: lightcyan;
+
+        }
+
+        55%{
+
+            color: lightsalmon;
+
+        }
+
+        60%{
+
+            color: pink;
+
+        }
+
+        65%{
+
+            color: lemonchiffon;
+
+        }
+
+        70% {
+
+            color: palevioletred;
+
+        }
+
+        75%{
+
+            color: lime;
+
+        }
+
+        80%{
+
+            color: paleturquoise;
+
+        }
+
+        85%{
+
+            color: lightgreen;
+
+        }
+
+        90%{
+
+            color: orchid;
+
+        }
+
+        95%{
+
+            color: lightsalmon;
+
+        }
+
+        100% {
+
+            color: crimson;
+        
+        }
+
+    }
+
 .v {
 
-    font-size: 5rem;
-    color: white;
     right: 1%;
     top: 25%;
-    position: absolute;
+    animation-duration: 5s;
 
 }
 
 .aa {
 
-    font-size: 5rem;
-    color: white;
     right: 1%;
     top: 35%;
-    position: absolute;
+    animation-duration: 0.8s;
 
 }
 
 .d {
 
-    font-size: 5rem;
-    color: white;
     right: 1%;
     top: 45%;
-    position: absolute;
+    animation-duration: 1.2s;
 
 }
 
 .ee {
 
-    font-size: 5rem;
-    color: white;
     right: 1.5%;
     top: 55%;
-    position: absolute;
+    animation-duration: 2.5s;
 
 }
 
 .r {
 
-    font-size: 5rem;
-    color: white;
     right: 1%;
     top: 65%;
-    position: absolute;
+    animation-duration: 3s;
 
 }
 
 .ss {
 
-    font-size: 5rem;
-    color: white;
     right: 1.5%;
     top: 75%;
-    position: absolute;
+    animation-duration: 6s;
 
 }
 
+.i, .n, .v, .aa, .d, .ee, .r, .ss {
+    font-size: 500%;
+    color: white;
+    position: absolute;
+    animation-name: I;
+    animation-iteration-count: infinite; 
+}
 
 .img1 {
 
@@ -653,7 +980,7 @@ position: absolute;
 
 #ship {
 position: absolute;
-    bottom: 5%;
+    bottom: -1.5%;
     left: 46.5%;
     flex-wrap: wrap; 
     display: flex;
